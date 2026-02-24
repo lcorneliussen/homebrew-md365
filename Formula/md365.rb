@@ -1,28 +1,28 @@
 class Md365 < Formula
   desc "AI-native CLI for Microsoft 365 - calendars, contacts, and mail as Markdown"
   homepage "https://github.com/lcorneliussen/md365"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/lcorneliussen/md365/releases/download/v0.1.1/md365_0.1.1_darwin_amd64.tar.gz"
-      sha256 "1f8dd63ceb1923065f4783bbae29a4a007d29cb2f9cebc0b6dc1560662e07adc"
+      url "https://github.com/lcorneliussen/md365/releases/download/v0.1.2/md365_0.1.2_darwin_amd64.tar.gz"
+      sha256 "808a1eae9dfed42ec13cc81c6c3fc83dd5b1af82ae563942833aa52d2a8d0a51"
     end
     on_arm do
-      url "https://github.com/lcorneliussen/md365/releases/download/v0.1.1/md365_0.1.1_darwin_arm64.tar.gz"
-      sha256 "ca84840e96aa8827a10810c34f8ce86610676bd5a236b528891fc3cd5a157d1a"
+      url "https://github.com/lcorneliussen/md365/releases/download/v0.1.2/md365_0.1.2_darwin_arm64.tar.gz"
+      sha256 "6cd8731e49ec0dba268228e51bc9903dde006e82b6fe604a2d79e9a9e27aa000"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/lcorneliussen/md365/releases/download/v0.1.1/md365_0.1.1_linux_amd64.tar.gz"
-      sha256 "43e8768fe288f4281295de1da47a143d79c9fe43acbdd9a8747cd0a37c964856"
+      url "https://github.com/lcorneliussen/md365/releases/download/v0.1.2/md365_0.1.2_linux_amd64.tar.gz"
+      sha256 "4f30f6cc19adef3836cf5aebadd7389c7ddd4674a522ffc652c11e45d8bd6e48"
     end
     on_arm do
-      url "https://github.com/lcorneliussen/md365/releases/download/v0.1.1/md365_0.1.1_linux_arm64.tar.gz"
-      sha256 "67088114c7b3c19937e65cf15f9671149bfc04401ffc594a6e1459c243cc8cf9"
+      url "https://github.com/lcorneliussen/md365/releases/download/v0.1.2/md365_0.1.2_linux_arm64.tar.gz"
+      sha256 "152f5d33acbb16e16afb6106aecff5da6657de0f975dc5678ff16e21283872a4"
     end
   end
 
