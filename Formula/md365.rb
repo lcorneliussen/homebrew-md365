@@ -5,21 +5,21 @@
 class Md365 < Formula
   desc "AI- and human-friendly CLI for Microsoft 365 - calendars, contacts, and mail as Markdown"
   homepage "https://github.com/lcorneliussen/md365"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/lcorneliussen/md365/releases/download/v0.3.0/md365_0.3.0_darwin_amd64.tar.gz"
-      sha256 "0b12a6505c1c7ff54c7c31f25fd226f870fb8cfb9bba52a19eea8d5260e799c0"
+      url "https://github.com/lcorneliussen/md365/releases/download/v0.4.0/md365_0.4.0_darwin_amd64.tar.gz"
+      sha256 "70b51f7b47b0b1325f5231a4ad423584c315a1c7bdafb09b9c460a81f3d632e6"
 
       define_method(:install) do
         bin.install "md365"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/lcorneliussen/md365/releases/download/v0.3.0/md365_0.3.0_darwin_arm64.tar.gz"
-      sha256 "ae50ab33f1c2ad5557779ea35e0685bf0dc39ed2c83a496e2293ee42a199bd41"
+      url "https://github.com/lcorneliussen/md365/releases/download/v0.4.0/md365_0.4.0_darwin_arm64.tar.gz"
+      sha256 "b92de4c6e4189561147f56fa31d0fe4ffe5cab15c494b5fda9bde67145beb6d2"
 
       define_method(:install) do
         bin.install "md365"
@@ -29,15 +29,15 @@ class Md365 < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/lcorneliussen/md365/releases/download/v0.3.0/md365_0.3.0_linux_amd64.tar.gz"
-      sha256 "b9449885f5d47030e5642da1649ba2367b27eca3335ebf5ee1e61e325fa95640"
+      url "https://github.com/lcorneliussen/md365/releases/download/v0.4.0/md365_0.4.0_linux_amd64.tar.gz"
+      sha256 "3c23722a16455a82f1fd9a7811bbb31717a8ca31da04a198120806c6b2c41231"
       define_method(:install) do
         bin.install "md365"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/lcorneliussen/md365/releases/download/v0.3.0/md365_0.3.0_linux_arm64.tar.gz"
-      sha256 "809534125da23e7dbb8ca6a6db10dadac44dcd6cab1354e6884df90bd2a9f914"
+      url "https://github.com/lcorneliussen/md365/releases/download/v0.4.0/md365_0.4.0_linux_arm64.tar.gz"
+      sha256 "39652691f00b35f325d25795efa9df67575cd313d417dd192f4be970a237b012"
       define_method(:install) do
         bin.install "md365"
       end
